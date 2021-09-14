@@ -8,7 +8,7 @@ import ProjectData from "./projectData";
 
 const ProjectItem = ({ projects }) => {
     const [current, setCurrent] = useState(0);
-    const length = ProjectItem.length;
+    const length = ProjectData.length;
 
     const nextProject = () => {
         setCurrent(current === length + 1 ? 0 : current + 1);
