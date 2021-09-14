@@ -2,12 +2,15 @@ import BackgroundHeader from "./Asset/background-header.jpg";
 import WakeUp from "./Asset/WakeUp.PNG";
 import Figma from "./Asset/figma_icon.svg";
 import GoogleSlides from "./Asset/google-slides.svg";
+import Github from "./Asset/github_1.svg";
+import ARairport from "./Asset/IphoneScreenShot.png";
+import Website from "./Asset/public_black_24dp.svg";
 
 const ProjectData = [
     {
         title: "GetUp",
         description:
-            "In this project I learned about storyboards, target-market personas, journey maps, open-ended asking in interviews, iteration. I learned very quickly that you want to test and validate your idea before you go out and spend time and energy on building it. I was complemented for lack of bloat by the head of UX.",
+            "Learned about storyboards, target-market personas, journey maps, open-ended questions, iteration. Test and validate your idea before you spend time and energy on building.",
         figmaImg: Figma,
         figma: "https://whimsical.com/wireframing-for-usability-testing-GBQGYZpz3GwB1sR997wKia@VsSo8s35VfCZmDkmNQtqks",
         slides: "https://docs.google.com/presentation/d/1_nBpJSdg2HWyHbhX4K26nx6X5J_7iA34XsCtzaSqreo/edit?usp=sharing",
@@ -22,14 +25,18 @@ const ProjectData = [
         id: "one",
     },
     {
-        title: "I am number 2",
-        description: "finish the portfolio",
-        figma: "Link",
+        title: "Airport AR",
+        description:
+            "I am doing a side project with a friend. I designed and built the website for mobile and we are building a prototype!",
+        figma: "https://www.figma.com/file/3QOXIef8VKZeuRrAhbG37L/AR-airport-landing-page",
+        figmaImg: Figma,
         invision: "Link",
-        github: "Link",
-        website: "Link",
+        github: "https://github.com/AR-Airport/landing-page",
+        githubImg: Github,
+        website: "https://cocky-tereshkova-4d93e1.netlify.app/",
+        websiteImg: Website,
         artifacts: "Link",
-        heroImg: BackgroundHeader,
+        heroImg: ARairport,
         id: "two",
     },
     {

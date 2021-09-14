@@ -61,6 +61,17 @@ const ProjectItem = ({ projects }) => {
                                         </IconForEachCSS>
                                         <IconForEachCSS>
                                             <a
+                                                href={projects.website}
+                                                target="_blank"
+                                            >
+                                                <img
+                                                    src={projects.websiteImg}
+                                                    class="contact-logo-github-image"
+                                                />
+                                            </a>
+                                        </IconForEachCSS>
+                                        <IconForEachCSS>
+                                            <a
                                                 href={projects.slides}
                                                 target="_blank"
                                             >
