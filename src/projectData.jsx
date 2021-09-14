@@ -27,21 +27,6 @@ const ProjectData = [
         id: "one",
     },
     {
-        title: "Airport AR",
-        description:
-            "I am doing a side project with a friend. I designed and built the website for mobile and we are building a prototype!",
-        figma: "https://www.figma.com/file/3QOXIef8VKZeuRrAhbG37L/AR-airport-landing-page",
-        figmaImg: Figma,
-        invision: "Link",
-        github: "https://github.com/AR-Airport/landing-page",
-        githubImg: Github,
-        website: "https://cocky-tereshkova-4d93e1.netlify.app/",
-        websiteImg: Website,
-        artifacts: "Link",
-        heroImg: ARairport,
-        id: "two",
-    },
-    {
         title: "WeMeta",
         description:
             "During a hackathon we built a plugin and won an award. I designed the plugin.",
@@ -68,6 +53,21 @@ const ProjectData = [
         artifacts: "Link",
         heroImg: Capstone,
         id: "four",
+    },
+    {
+        title: "Airport AR",
+        description:
+            "I am doing a side project with a friend. I designed and built the website for mobile and we are building a prototype!",
+        figma: "https://www.figma.com/file/3QOXIef8VKZeuRrAhbG37L/AR-airport-landing-page",
+        figmaImg: Figma,
+        invision: "Link",
+        github: "https://github.com/AR-Airport/landing-page",
+        githubImg: Github,
+        website: "https://cocky-tereshkova-4d93e1.netlify.app/",
+        websiteImg: Website,
+        artifacts: "Link",
+        heroImg: ARairport,
+        id: "two",
     },
 ];
 
