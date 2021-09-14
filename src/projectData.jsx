@@ -5,6 +5,8 @@ import GoogleSlides from "./Asset/google-slides.svg";
 import Github from "./Asset/github_1.svg";
 import ARairport from "./Asset/IphoneScreenShot.png";
 import Website from "./Asset/public_black_24dp.svg";
+import Plugin from "./Asset/Plugin.PNG";
+import Capstone from "./Asset/capstone.PNG";
 
 const ProjectData = [
     {
@@ -40,15 +42,32 @@ const ProjectData = [
         id: "two",
     },
     {
-        title: "I am index 3",
-        description: "finish the portfolio",
-        figma: "Link",
+        title: "WeMeta",
+        description:
+            "During a hackathon we built a plugin and won an award. I designed the plugin.",
+        figma: "https://www.figma.com/file/XinEZB4P38r6dB7N4EAwqX/Plugin",
+        figmaImg: Figma,
         invision: "Link",
-        github: "https://jonpynes.com/",
+        github: "https://github.com/apinanyogaratnam/landpeer",
+        githubImg: Github,
         website: "Link",
         artifacts: "Link",
-        heroImg: BackgroundHeader,
+        heroImg: Plugin,
         id: "three",
+    },
+    {
+        title: "Capstone",
+        description: "This was our final project for Kenzie Academy",
+        figma: "https://www.figma.com/file/FPW518wGJ6ukyPGQJNLloZ/UIE-Capstone",
+        figmaImg: Figma,
+        invision: "Link",
+        github: "https://github.com/JonathanPynes/capstone-project",
+        githubImg: Github,
+        website: "https://awesome-cori-c23934.netlify.app/",
+        websiteImg: Website,
+        artifacts: "Link",
+        heroImg: Capstone,
+        id: "four",
     },
 ];
 
