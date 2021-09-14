@@ -9,6 +9,7 @@ const ProjectData = [
         description:
             "In this project I learned about storyboards, target-market personas, journey maps, open-ended asking in interviews, iteration. I learned very quickly that you want to test and validate your idea before you go out and spend time and energy on building it. I was complemented for lack of bloat by the head of UX.",
         figmaImg: Figma,
+        figma: "https://whimsical.com/wireframing-for-usability-testing-GBQGYZpz3GwB1sR997wKia@VsSo8s35VfCZmDkmNQtqks",
         slides: "https://docs.google.com/presentation/d/1_nBpJSdg2HWyHbhX4K26nx6X5J_7iA34XsCtzaSqreo/edit?usp=sharing",
         slidesImg: GoogleSlides,
         invision: "Link",
