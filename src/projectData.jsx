@@ -3,7 +3,7 @@ import WakeUp from "./Asset/WakeUp.PNG";
 import Figma from "./Asset/figma_icon.svg";
 import GoogleSlides from "./Asset/google-slides.svg";
 import Github from "./Asset/github_1.svg";
-import ARairport from "./Asset/IphoneScreenShot.png";
+import ARairport from "./Asset/ScreenshotARairport.PNG";
 import Website from "./Asset/public_black_24dp.svg";
 import Plugin from "./Asset/Plugin.PNG";
 import Capstone from "./Asset/capstone.PNG";

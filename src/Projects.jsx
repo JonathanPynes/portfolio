@@ -35,7 +35,6 @@ const ProjectItem = ({ projects }) => {
                                             {projects.description}
                                         </TopLeftText>
                                     </TopLeft>
-
                                     <TopMiddle>
                                         <IconForEachCSS>
                                             <a
@@ -182,7 +181,7 @@ const RightButtonCSS = styled.img`
 `;
 
 const BottomHeroImg = styled.img`
-    height: 100%;
+    height: 50%;
     width: 100%;
     object-fit: contain;
 `;
