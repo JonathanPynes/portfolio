@@ -135,7 +135,7 @@ const Savage = styled.div`
 `;
 
 const ProjectsCSS = styled.div`
-    height: 100vh;
+    height: 100%;
 `;
 
 const MyComponentCSS = styled.div`
