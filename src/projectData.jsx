@@ -42,7 +42,7 @@ const ProjectData = [
     },
     {
         title: "Capstone",
-        description: "This was our final project for Kenzie Academy",
+        description: "This was our final project for Kenzie Academy.",
         figma: "https://www.figma.com/file/FPW518wGJ6ukyPGQJNLloZ/UIE-Capstone",
         figmaImg: Figma,
         invision: "Link",
