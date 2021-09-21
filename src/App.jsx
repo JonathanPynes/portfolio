@@ -30,7 +30,7 @@ export default function App() {
                         backgroundColor: 0x120820,
                         backgroundAlpha: 1,
                         color1: 0x120820,
-                        color2: 0xffe5cf,
+                        color2: 0x120820,
                     })
                 );
             }
