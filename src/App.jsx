@@ -163,6 +163,7 @@ const HeadingH2Projects = styled.h2`
     font-size: 4em;
     padding: 2rem;
     text-align: center;
+    background-color: rgba(18, 8, 32, 1);
 `;
 
 const HeaderBackgroundCSS = styled.section`
