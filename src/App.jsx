@@ -159,9 +159,9 @@ const MyComponentCSS = styled.div`
 
 const HeadingH2Projects = styled.h2`
     color: rgba(255, 229, 207, 1);
-    margin: 5rem 0 0 0;
+    margin: 0;
     font-size: 4em;
-    padding: 2rem;
+    padding-top: 5rem;
     text-align: center;
     background-color: rgba(18, 8, 32, 1);
 `;
