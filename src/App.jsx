@@ -22,8 +22,8 @@ export default function App() {
                         mouseControls: true,
                         touchControls: true,
                         gyroControls: false,
-                        minHeight: 300,
-                        minWidth: 300,
+                        minHeight: 100,
+                        minWidth: 100,
                         scale: 1.0,
                         colorMode: "lerp",
                         scaleMobile: 1.0,
@@ -40,17 +40,20 @@ export default function App() {
         }, [vantaEffect]);
         return (
             <div ref={myRef}>
-                <AboutMeHeading>What I Bring</AboutMeHeading>
+                <HeadingH2>About Me</HeadingH2>
                 <AboutMePara>
-                    <p>Problem Solving</p>
-                    <p>Work Ethic</p>
-                    <ZeroMargin>Vision</ZeroMargin>
+                    A lifelong tech lover and recent UX/UI program graduate.
+                    Ready to apply developed skills in Whimsical, Figma,
+                    Front-End basics, React.js and GitHub and showcase unique
+                    front-end design and development abilities. The internet is
+                    the most fascinating achievement of the last century. We
+                    need to do something big; let's do it together!
                 </AboutMePara>
             </div>
         );
     };
 
-    const AboutMeHeading = styled.h2`
+    const HeadingH2 = styled.h2`
         color: rgba(255, 229, 207, 1);
         margin: 0;
         font-size: 4em;
@@ -61,7 +64,8 @@ export default function App() {
         color: rgba(255, 229, 207, 1);
         text-align: center;
         font-size: 2em;
-        margin-bottom: 0;
+        line-height: 160%;
+        margin: 0 1rem 0 1rem;
     `;
     const ZeroMargin = styled.p`
         margin-bottom: 0;
@@ -112,9 +116,6 @@ export default function App() {
                     <Savage></Savage>
                 </MyComponent>
             </MyComponentCSS>
-            <ProjectsCSS>
-                <ProjectItem projects={ProjectData} />
-            </ProjectsCSS>
             <IframeContainer>
                 <Iframe
                     class="video-iframe"
@@ -124,6 +125,19 @@ export default function App() {
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
                 ></Iframe>
+            </IframeContainer>
+            <HeadingH2Projects>Projects</HeadingH2Projects>
+            <ProjectsCSS>
+                <ProjectItem projects={ProjectData} />
+            </ProjectsCSS>
+            <IframeContainer>
+                <iframe
+                    src="https://drive.google.com/file/d/1VOzeOUo16e_JFY2ihjIAqwsIllg66gNW/preview"
+                    width="100%"
+                    height="100%"
+                    border="none"
+                    allow="autoplay"
+                ></iframe>
             </IframeContainer>
         </>
     );
@@ -142,6 +156,14 @@ const MyComponentCSS = styled.div`
     width: 100%;
     height: auto;
     background-color: rgba(18, 8, 32, 1);
+`;
+
+const HeadingH2Projects = styled.h2`
+    color: rgba(255, 229, 207, 1);
+    margin: 5rem 0 0 0;
+    font-size: 4em;
+    padding: 2rem;
+    text-align: center;
 `;
 
 const HeaderBackgroundCSS = styled.section`
