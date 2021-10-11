@@ -113,7 +113,8 @@ const Container = styled.div`
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-gap: 1em 1em;
-    overflow-x: hidden;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
 `;
 
 const TopRight = styled.div`
