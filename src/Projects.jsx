@@ -131,7 +131,7 @@ const TopLeft = styled.div`
     padding: 8rem 0rem 8rem 5rem;
 `;
 
-const TopLeftTitle = styled.h2`
+const TopLeftTitle = styled.h3`
     font-size: 4rem;
     margin-bottom: 0.5rem;
 `;
