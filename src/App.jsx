@@ -157,7 +157,7 @@ const MyComponentCSS = styled.div`
     background-color: rgba(18, 8, 32, 1);
 `;
 
-const HeadingH2Projects = styled.h2`
+const HeadingH2Projects = styled.h1`
     color: rgba(255, 229, 207, 1);
     margin: 0;
     font-size: 4em;
